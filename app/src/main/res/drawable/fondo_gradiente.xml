@@ -1,0 +1,30 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Fondo azul oscuro (con opacidad 44%) -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/gradiente2" />
+        </shape>
+    </item>
+
+    <!-- Gradiente horizontal (de transparente a rojo 20%) -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="@color/gradiente1_1"
+                android:endColor="@color/gradiente1"
+                android:angle="0" />
+        </shape>
+    </item>
+
+    <!-- Gradiente vertical (de transparente a rojo 20%) -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="@color/gradiente1_1"
+                android:endColor="@color/gradiente1"
+                android:angle="90" />
+        </shape>
+    </item>
+
+</layer-list>
